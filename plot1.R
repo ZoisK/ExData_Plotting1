@@ -1,7 +1,19 @@
 #
 # File: plot1.R
 # R code required to create plot1.png
+# This file also contains the function get_data() to download the dataset 
+# and read the data into R
 
+#
+# Usage:
+# 1) if the data are not already loaded then 
+# call get_data() to download and read data in R: 
+# > data <- get_data()
+# 2) call plot1 on the data to create the plot in the png file 
+# > plot1( data)
+#
+
+#
 # get_data()
 # function to download data and read into table 
 # Input: - 

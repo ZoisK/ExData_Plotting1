@@ -2,6 +2,14 @@
 # File: plot4.R
 # R code required to create plot4.png
 # 
+# Usage:
+# 1) if the data are not already loaded then 
+# - source plot1.R to load the get_data() function
+# - call get_data() to download and read data in R: 
+# > data <- get_data()
+# 2) call plot4 on the data to create the plot in the png file 
+# > plot4( data)
+#
 
 #
 # plot4()
